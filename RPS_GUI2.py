@@ -61,7 +61,7 @@ class RPSGame(Frame):
         self._choiceImgLabP["image"] = self._playerImg
         self._textLabelP["text"] = "Rock"
         if self._computerImgFile == 'paper.png': 
-            self._winnerLabel["text"] = "YOU LOOSE!"
+            self._winnerLabel["text"] = "YOU LOSE!"
             self._winnerLabel["fg"] = "red"
         elif self._computerImgFile == 'scissors.png':
             self._winnerLabel["text"] = "YOU WIN!"
@@ -77,7 +77,7 @@ class RPSGame(Frame):
         self._choiceImgLabP["image"] = self._playerImg
         self._textLabelP["text"] = "Paper"
         if self._computerImgFile == 'scissors.png': 
-            self._winnerLabel["text"] = "YOU LOOSE!"
+            self._winnerLabel["text"] = "YOU LOSE!"
             self._winnerLabel["fg"] = "red"
         elif self._computerImgFile == 'rock.png':
             self._winnerLabel["text"] = "YOU WIN!"
@@ -96,7 +96,7 @@ class RPSGame(Frame):
             self._winnerLabel["text"] = "YOU WIN!"
             self._winnerLabel["fg"] = "green"
         elif self._computerImgFile == 'rock.png':
-            self._winnerLabel["text"] = "YOU LOOSE!"
+            self._winnerLabel["text"] = "YOU LOSE!"
             self._winnerLabel["fg"] = "red"
         else: 
             self._winnerLabel["text"] = "ITS A TIE!"
